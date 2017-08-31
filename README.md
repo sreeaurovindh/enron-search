@@ -2,7 +2,7 @@
 
 Enron email dataset was used to understand the nature of false positives in a proprietary software system which was capable of recognizing personally identifiable information present in email data.The proprietary system tagged emails  based on complex set of rules and regular expression matches.However, the system had lots of false positives.
 
-They wanted to build a supervised machine learning model that can categorize emails more accurately. The major issue here was to identify  postive samples that contain PII information. Hence we devised a methodology to intelligently identify sub groups of emails based on the lingusitic information so that it can be used to extract samples(positve) which can be used to develop supervised machine learning models.
+The major issue here was to identify positive samples that contain Personally Identifiable information. Hence we devised a methodology to intelligently identify sub groups of emails based on the lingusitic information so that it can be used to extract samples(positve) which can be used to develop supervised machine learning models.
 
 * Data Description : Meta data about each email was present in the form of raw text files along with tag information.   
 
